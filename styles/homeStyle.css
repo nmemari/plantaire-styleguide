@@ -1,0 +1,24 @@
+:root {
+    --almond: #EBD7C1;
+    --laurel-green: #A3B18A;
+    --fern-green: #588157;
+    --hunter-green: #3A5A40;
+    --earth-yellow: #DDA15E;
+}
+
+body {
+    margin: 0;
+    background-color: var(--laurel-green);
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar {
+    background-color: var(--hunter-green);
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
