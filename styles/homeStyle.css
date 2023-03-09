@@ -74,6 +74,10 @@ body {
     transition: 200ms;
 }
 
+#active {
+    color: var(--almond);
+}
+
 .navLink a:hover {
     color: var(--almond);
 }
