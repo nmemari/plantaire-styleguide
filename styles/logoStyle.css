@@ -81,3 +81,169 @@ body {
 .navLink a:hover {
     color: var(--almond);
 }
+
+/* Logo Introductions Section */
+.introLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.introLogo img {
+    width: 300px;
+    height: auto;
+    animation: floating 2s infinite linear;
+}
+
+@keyframes floating {
+    30% {
+        transform: translateY(2%);
+    }
+}
+
+.meetLogo {
+    background-color: var(--hunter-green);
+    display: flex;
+    flex-direction: column;
+    height: 425px;
+    width: 400px;
+    padding: 20px;
+    margin-right: 150px;
+    border-radius: 10px;
+}
+
+.introTitle {
+    color: var(--almond);
+    font-family: 'Grandstander', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.introType {
+    color: var(--earth-brown);
+    font-family: 'Anybody', cursive;
+    word-spacing: 6px;
+    line-height: 1.5;
+    background-color: var(--laurel-green);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logoVariations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: var(--fern-green);
+}
+
+.varIntro {
+    color: var(--earth-brown);
+    font-family: 'Grandstander';
+    font-size: 40px;
+    background-color: var(--laurel-green);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.logosContainer {
+    background-color: var(--hunter-green);
+    display: flex;
+    flex-direction: column;
+    width: 44.5%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.logoVar {
+    background-color: var(--almond);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 7px;
+    border-radius: 10px;
+}
+
+.logoType {
+    color: var(--earth-brown);
+    font-family: 'Grandstander';
+    font-size: 25px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos img {
+    height: 100px;
+    width: auto;
+    margin-left: 15px;
+}
+
+.logoDesign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.designIntro {
+    color: var(--earth-brown);
+    font-family: 'Grandstander';
+    font-size: 40px;
+}
+
+.designCont {
+    background-color: var(--hunter-green);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 45%;
+    padding: 30px;
+}
+
+.designType {
+    color: var(--earth-brown);
+    font-family: 'Anybody', cursive;
+    word-spacing: 6px;
+    line-height: 1.5;
+    background-color: var(--laurel-green);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: var(--hunter-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.scrollTop {
+    text-decoration: none;
+    font-family: 'Grandstander', cursive;
+    color: var(--laurel-green);
+    font-weight: 700;
+    font-size: 25px;
+    transition: 300ms;
+}
+
+.scrollTop:hover {
+    color: var(--fern-green);
+}
+
+.copyright {
+    color: var(--fern-green);
+    font-family: 'Anybody', cursive;
+    font-size: 16px; 
+    margin-top: 30px;
+}
