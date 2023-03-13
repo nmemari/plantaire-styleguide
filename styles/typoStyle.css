@@ -279,4 +279,35 @@ body {
     font-family: 'Anybody', cursive;
 }
 
+footer {
+    background-color: var(--hunter-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
 
+.scrollTop {
+    text-decoration: none;
+    font-family: 'Grandstander', cursive;
+    color: var(--laurel-green);
+    font-weight: 700;
+    font-size: 25px;
+    transition: 300ms;
+}
+
+.scrollTop:hover {
+    color: var(--fern-green);
+}
+
+.names {
+    color: var(--laurel-green);
+    font-family: 'Anybody', cursive;
+}
+
+.copyright {
+    color: var(--fern-green);
+    font-family: 'Anybody', cursive;
+    font-size: 16px; 
+}

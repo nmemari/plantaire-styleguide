@@ -225,7 +225,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 150px;
+    height: 200px;
 }
 
 .scrollTop {
@@ -239,6 +239,11 @@ footer {
 
 .scrollTop:hover {
     color: var(--fern-green);
+}
+
+.names {
+    color: var(--laurel-green);
+    font-family: 'Anybody', cursive;
 }
 
 .copyright {
