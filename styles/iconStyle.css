@@ -83,8 +83,12 @@ body {
 }
 
 .components {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: 'Anybody', cursive;
-    text-align: center;
+    color: var(--earth-brown);
     margin-top: 50px;
 }
 
@@ -96,8 +100,39 @@ body {
     margin-top: 90px;
 }
 
+.quiz-buttons img {
+    margin: 10px;
+}
+
 #quiz-header {
-    margin-top: 170px;
+    margin-top: 60px;
+}
+
+.sampleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+
+.sampleBtn{
+    background-color: var(--fern-green);
+    border: none;
+    border-radius: 10px;
+    width: 275px;
+    padding: 20px;
+    color: white;
+    font-family: 'Anybody', cursive;
+    font-size: 25px;
+    transition: 300ms;
+}
+
+.sampleBtn:hover {
+    cursor: pointer;
+    background-color: var(--hunter-green);
+    color: var(--earth-yellow);
+    border: 5px solid var(--earth-yellow);
 }
 
 #navigation-buttons {
@@ -126,13 +161,34 @@ body {
     margin-top: 50px;
 }
 
+.forward-backwards-btns img {
+    margin: 10px;
+}
+
+.sampleBtnBack{
+    background-color: var(--fern-green);
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    padding: 15px;
+    color: white;
+    font-family: 'Anybody', cursive;
+    font-size: 20px;
+    transition: 300ms;
+}
+
+.sampleBtnBack:hover {
+    cursor: pointer;
+    background-color: var(--hunter-green);
+}
+
 .for-back-desc {
     margin-left: 50px;
     text-align: left;
 }
 
 #information-btn {
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 .info-btn {

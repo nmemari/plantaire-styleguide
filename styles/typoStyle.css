@@ -81,3 +81,202 @@ body {
 .navLink a:hover {
     color: var(--almond);
 }
+
+.colourPalette {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colours {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    padding-bottom: 30px;
+}
+
+.almond {
+    display: flex;
+    color: var(--almond);
+    font-family: 'Grandstander', cursive;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--almond);
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.laurelGreen {
+    display: flex;
+    color: var(--laurel-green);
+    font-family: 'Grandstander', cursive;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--laurel-green);
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.fernGreen {
+    display: flex;
+    color: var(--fern-green);
+    font-family: 'Grandstander', cursive;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fern-green);
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.hunterGreen {
+    display: flex;
+    color: var(--hunter-green);
+    font-family: 'Grandstander', cursive;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--hunter-green);
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.earthYellow {
+    display: flex;
+    color: var(--earth-yellow);
+    font-family: 'Grandstander', cursive;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--earth-yellow);
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.earthBrown {
+    display: flex;
+    color: var(--earth-brown);
+    font-family: 'Grandstander', cursive;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--earth-brown);
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.almond:hover, .laurelGreen:hover, .fernGreen:hover, .hunterGreen:hover, .earthBrown:hover, .earthYellow:hover {
+    color: white;
+}
+
+.typography {
+    background-color: var(--fern-green);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    color: var(--earth-brown);
+    background-color: var(--laurel-green);
+    padding: 25px;
+    border-radius: 10px;
+    font-family: 'Grandstander', cursive;
+    font-size: 35px;
+}
+
+.fontContainer {
+    background-color: var(--hunter-green);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 30px;
+    width: 75%;
+}
+
+.fontIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--laurel-green);
+    border-radius: 10px;
+    color: var(--earth-brown);
+}
+
+.grandstander {
+    font-family: 'Grandstander', cursive;
+    font-size: 35px;
+    margin: 15px;
+}
+
+.fontGrand {
+    font-family: 'Grandstander', cursive;
+    font-size: 40px;
+    margin: 15px;
+    font-weight: 900px;
+}
+
+.fontVars {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fontVariationsGrand {
+    font-family: 'Grandstander', cursive;
+    color: var(--almond);
+}
+
+.anybody {
+    font-family: 'Anybody', cursive;
+    font-size: 35px;
+    margin: 15px;
+}
+
+.fontAny {
+    font-family: 'Anybody', cursive;
+    font-size: 40px;
+    margin: 15px;
+    font-weight: 900px;
+}
+
+.fontVariationsAny {
+    font-family: 'Anybody', cursive;
+    color: var(--almond);
+}
+
+.fontExplanation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    width: 40%;
+    padding: 30px;
+    color: var(--almond);
+    font-family: 'Anybody', cursive;
+}
+
+
